@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|solutionrelative:controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|c:\\users\\megablodfix\\source\\repos\\fisamicroservicios\\imageuploadms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|c:\\users\\megablodfix\\source\\repos\\fisamicroservicios\\imageuploadms\\interfaces\\iimageupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|solutionrelative:interfaces\\iimageupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|c:\\users\\megablodfix\\source\\repos\\fisamicroservicios\\imageuploadms\\services\\imageuploadservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|solutionrelative:services\\imageuploadservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|c:\\users\\megablodfix\\source\\repos\\fisamicroservicios\\imageuploadms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B825F5-09C3-43D4-8A59-3A75D613B07C}|ImageUploadMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 334,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,15 +47,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IImageUpload.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Interfaces\\IImageUpload.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IImageUpload.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Interfaces\\IImageUpload.cs",
+              "RelativeToolTip": "Interfaces\\IImageUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T15:14:06.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:09:20.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T14:09:20.493Z"
             },
             {
               "$type": "Document",
@@ -61,7 +77,7 @@
               "RelativeDocumentMoniker": "Services\\ImageUploadServices.cs",
               "ToolTip": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Services\\ImageUploadServices.cs",
               "RelativeToolTip": "Services\\ImageUploadServices.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T13:57:46.32Z",
               "EditorCaption": ""
@@ -74,7 +90,7 @@
               "RelativeDocumentMoniker": "Controllers\\Image.cs",
               "ToolTip": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\ImageUploadMS\\Controllers\\Image.cs*",
               "RelativeToolTip": "Controllers\\Image.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwC8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T13:57:44.251Z",
               "EditorCaption": ""

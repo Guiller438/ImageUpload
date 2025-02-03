@@ -2,6 +2,9 @@
 {
     public interface IImageUpload
     {
-        Task<string> UploadImageAsync(IFormFile file);
+        Task<string> UploadImageProfileAsync(IFormFile file);
+
+        Task<string> UploadImageEvidenceAsync(IFormFile file);
+
     }
 }

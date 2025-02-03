@@ -19,19 +19,36 @@ namespace ImageUploadMS.Controllers
             _imageUpload = imageUpload;
         }
 
-        [HttpPost("upload")]
+        [HttpPost("uploadprofile")]
         [Consumes("multipart/form-data")]
-        public async Task<IActionResult> UploadImage([FromForm] ImageUploadModels image)
+        public async Task<IActionResult> UploadImageProfile([FromForm] ImageUploadModels image)
         {
             if (image == null || image.File == null || image.File.Length == 0)
             {
                 return BadRequest("No se proporcionó una imagen válida.");
             }
 
-            var fileName = await _imageUpload.UploadImageAsync(image.File);
+            var fileName = await _imageUpload.UploadImageProfileAsync(image.File);
 
             // 📌 Nueva URL con `wwwroot/profilepictures/`
             var fullUrl = $"{Request.Scheme}://{Request.Host}/profilepictures/{fileName}";
+
+            return Ok(new { url = fullUrl });
+        }
+
+        [HttpPost("uploadevidence")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> UploadImageEvidence([FromForm] ImageUploadModels image)
+        {
+            if (image == null || image.File == null || image.File.Length == 0)
+            {
+                return BadRequest("No se proporcionó una imagen válida.");
+            }
+
+            var fileName = await _imageUpload.UploadImageEvidenceAsync(image.File);
+
+            // 📌 Nueva URL con `wwwroot/profilepictures/`
+            var fullUrl = $"{Request.Scheme}://{Request.Host}/evidenceimages/{fileName}";
 
             return Ok(new { url = fullUrl });
         }
